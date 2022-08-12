@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: #dadada;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 500px;
+    height: 600px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    padding: 10px 20px;
+    overflow-y: scroll;
+}
+h1 {
+    margin: 20px;
+    font-size: 40px;
+    font-weight: 600;
+}
+.search{
+    border: 1px solid black;
+    display: flex;
+    justify-content: flex-start;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.search input {
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+.search i {
+    color: #333;
+    padding: 5px;
+    font-size: 18px;
+}
+.products{
+
+}
+.product{
+    display: flex;
+    height: 100px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.product img {
+    width: 100px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+.info{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.name,
+.price{
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+}
+.product .name {
+    font-weight: bold;
+}
+.product:hover{
+    background: #dadada
+}
+.hide {
+    display: none;
+}
